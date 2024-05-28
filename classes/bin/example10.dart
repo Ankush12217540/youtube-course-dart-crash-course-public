@@ -8,7 +8,7 @@ void main(List<String> args) {
   motorcycle.accelerate();
   motorcycle.decelerate();
 }
-
+ 
 abstract class Vehicle {
   final VehicleKind kind;
   const Vehicle({required this.kind});
