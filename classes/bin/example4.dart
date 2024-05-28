@@ -6,7 +6,7 @@ void main(List<String> args) {
   print(foo.fullName);
 }
 
-class Person {
+class Person { 
   final String firstName;
   final String lastName;
   String get fullName => '$firstName $lastName';
