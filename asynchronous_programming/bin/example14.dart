@@ -12,7 +12,7 @@ Stream<String> getNames() async* {
   yield 'Alice';
   yield 'Joe';
 } 
-
+ 
 Stream<String> times3(String value) => Stream.fromIterable(
       Iterable.generate(
         3,
