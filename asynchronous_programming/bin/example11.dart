@@ -3,7 +3,7 @@ void main(List<String> args) async {
   for (final name in allNames) {
     print(name);
   }
-}
+} 
 
 Stream<String> getNames() async* {
   yield 'John';
