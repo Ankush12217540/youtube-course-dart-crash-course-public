@@ -1,4 +1,4 @@
-void main(List<String> args) {
+yvoid main(List<String> args) {
   describe(1);
   describe(1.1);
   describe('Hello');
@@ -28,4 +28,4 @@ void describe<T>(T value) {
       print('This is something else');
       break;
   }
-}
+}. 
