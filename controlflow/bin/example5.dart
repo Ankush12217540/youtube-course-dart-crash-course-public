@@ -11,7 +11,7 @@ void describe<T>(T value) {
   switch (T) {
     case int:
       print('This is an integer');
-      break; 
+      break;   
     case double:
       print('This is a double');
       break;
