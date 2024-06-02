@@ -8,5 +8,5 @@ void main(List<String> args) {
   const double divided = age1 / age2;
   print(divided);
   const int intDivided = age1 ~/ age2;
-  print(intDivided);
+  print(intDivided);  
 }
