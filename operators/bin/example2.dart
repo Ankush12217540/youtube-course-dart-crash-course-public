@@ -9,7 +9,7 @@ void main(List<String> args) {
   print(++age);
 
   /// unary bitwise completement prefix operator
-  print(~1);
+  print(~1); 
 
   /// (0000 0000) (0000 0000) (0000 0000) (0000 0001)
   /// (1111 1111) (1111 1111) (1111 1111) (1111 1110)
