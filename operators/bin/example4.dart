@@ -13,7 +13,7 @@ void main(List<String> args) {
   print(age > 20); // true
   print(age < 20); // false
   print(age >= 20); // true
-  print(age <= 20); // false
+  print(age <= 20); // false 
 
   // bitwise infix operators
   print(age & 20); // bitwise AND 1 & 1 = 1, 0 & 1 = 0, 1 & 0 = 0, 0 & 0 = 0
