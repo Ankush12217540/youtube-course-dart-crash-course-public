@@ -2,7 +2,7 @@ void main(List<String> args) {
   print(AnimalType.cat.nameContainsUpperCaseLetters);
   print(AnimalType.dog.nameContainsUpperCaseLetters);
   print(AnimalType.goldFish.nameContainsUpperCaseLetters);
-}
+} 
 
 enum AnimalType {
   cat,
