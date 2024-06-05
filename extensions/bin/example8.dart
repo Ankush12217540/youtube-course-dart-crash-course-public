@@ -2,7 +2,7 @@ void main(List<String> args) {
   const jack = Person(
     name: 'Jack',
     age: 20,
-  );
+  ); 
   print(
     ShortDescription(jack).description,
   );
