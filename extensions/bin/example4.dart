@@ -4,7 +4,7 @@ void main(List<String> args) {
   print(['Foo', 'Bar'].containsDuplicateValues);
   print(['Foo', 'Bar', 'foo'].containsDuplicateValues);
   print(['Foo', 'Bar', 'Foo'].containsDuplicateValues);
-}
+} 
 
 extension on Iterable {
   bool get containsDuplicateValues => toSet().length != length;
