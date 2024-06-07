@@ -7,7 +7,7 @@ void main(List<String> args) {
   print(10.to(10, inclusive: false));
 }   
   
-extension on int {
+extension on int { 
   Iterable<int> to(int end, {bool inclusive = true}) => end > this
       ? [for (var i = this; i < end; i++) i, if (inclusive) end]
       : [for (var i = this; i > end; i--) i, if (inclusive) end];
