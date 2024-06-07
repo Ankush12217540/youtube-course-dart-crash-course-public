@@ -5,4 +5,4 @@ void main(List<String> args) {
 
 extension SumOfIterable<T extends num> on Iterable<T> {
   T get sum => reduce((a, b) => a + b as T);
-}
+}. 
