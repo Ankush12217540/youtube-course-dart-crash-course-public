@@ -16,7 +16,7 @@ class Person with HasDoubleHeight {
   @override
   final double height;
   const Person({required this.height});
-}
+} 
 
 class Dog with HasIntHeight {
   @override
