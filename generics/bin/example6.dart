@@ -7,7 +7,7 @@ void main(List<String> args) {
 
 mixin HasHeight<H extends num> {
   H get height;
-}
+} 
 
 typedef HasIntHeight = HasHeight<int>;
 typedef HasDoubleHeight = HasHeight<double>;
