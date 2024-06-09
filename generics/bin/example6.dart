@@ -3,7 +3,7 @@ void main(List<String> args) {
   const dog = Dog(height: 1);
   print(person.height);
   print(dog.height);
-}
+} 
 
 mixin HasHeight<H extends num> {
   H get height;
@@ -11,7 +11,7 @@ mixin HasHeight<H extends num> {
 
 typedef HasIntHeight = HasHeight<int>;
 typedef HasDoubleHeight = HasHeight<double>;
-
+ 
 class Person with HasDoubleHeight {
   @override
   final double height;
